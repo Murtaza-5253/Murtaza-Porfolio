@@ -192,3 +192,32 @@
         margin: 2rem 0;
     }
 }
+
+.app__header-resume{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4rem 0 2rem;
+
+    .app__header-resume-item{
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        background-color: var(--secondary-color);
+        
+        font-weight: 800;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin: 0.5rem;
+        &:hover{
+             background-color: #fff;
+            // color: #000;
+        }
+
+        @media screen and (min-width:2000px) {
+            padding: 1rem 2rem;
+            border-radius: 0.85rem;
+        }
+    }
+}

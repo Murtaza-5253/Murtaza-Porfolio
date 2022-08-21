@@ -5,6 +5,7 @@ import {motion} from 'framer-motion'
 import {Images} from '../../constants'
 import {AppWrap} from  '../../wrapper'
 import {urlFor,client} from '../../client'
+import CTA from './CTA'
 const scaleVariants = {
   whileInView:{
     scale:[0,1],
@@ -97,6 +98,18 @@ const Header = () => {
         </div>
         )}
       </motion.div>
+
+      <div className="app__header-resume">
+
+        <motion.div className='app__header-resume-item'
+       whileInView={{scale:[0,1]}}
+       transition={{duration:1.5, ease:'easeInOut'}}>
+         <CTA/>
+        </motion.div>
+
+        
+
+      </div>
     </div>
   )
 }

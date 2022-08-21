@@ -40,6 +40,7 @@ import mzmaimoonblwh from '../assets/MzMaimoon-logos_black.png'
 import mzmaimoon566x710 from '../assets/mzprofile566x710.jpg'
 import mzprofile566x710_2 from '../assets/mzprofile566x710-2.jpg' 
 import mzprofile566x710_3 from '../assets/1658993453264-removebg.png' 
+import Murtaza_Resume from '../assets/Murtaza_Resume.pdf'
 //mzprofile566x710-2 1658993453264-removebg
 
 export default {
@@ -80,6 +81,7 @@ export default {
   mzmaimoonblwh,
   mzmaimoon566x710,
   mzprofile566x710_2,
-  mzprofile566x710_3
+  mzprofile566x710_3,
+  Murtaza_Resume
 
 };
